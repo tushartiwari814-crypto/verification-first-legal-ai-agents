@@ -18,7 +18,7 @@ This repository contains the anonymized conference manuscript and the accompanyi
 1. **Seven-Item Failure-Mode Taxonomy (`F1`–`F7`):** Synthesizes quantitative findings from **26 open-access sources** (2018–2026) covering retrieval granularity bias, context contamination, cost-accuracy gaps, multi-agent coordination drift, under-specified queries, fabricated authorities, and extraction ceilings.
 2. **Quantitative Failure-Mode Analyses:**
    * **Noise-Degradation Linear Fit (`F2`):** Recomputes ordinary least-squares slopes for charge-prediction accuracy ($\text{Accuracy} = 41.3 - 2.05k\text{ pp}$) and mean absolute error ($\text{Error} = 24.6 + 1.15k\text{ months}$) under irrelevant document injection ($k \in \{0, 2, 4, 6\}$).
-   * **Probabilistic Citation-Fabrication Risk Model (`F6`):** Evaluates the document-level residual risk $R(p, n, r) = 1 - [1 - p(1 - r)]^n$ across baseline hallucination rates ($p \in \{3\%, 13\%\}$), citation counts ($n \in \{10, 20\}$), and independent verifier recall ($r \in \{0, 0.90, 0.95, 0.99\}$).
+   * **Probabilistic Citation-Fabrication Risk Model (`F6`):** Evaluates the document-level residual risk across baseline hallucination rates, citation counts, and independent verifier recall.
 3. **Verification-First Reference Architecture (`R1`–`R7`) & Evaluation Protocol:** Maps seven technical controls to the failure modes they mitigate and the professional duties established under **ABA Formal Opinion 512** (Model Rules 1.1, 1.4, 1.5, 1.6, 3.3, 5.1, 5.3, and 8.4(c)), paired with falsifiable hypotheses (`H1`–`H3`).
 
 ---
