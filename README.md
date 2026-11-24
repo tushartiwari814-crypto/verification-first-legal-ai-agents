@@ -12,7 +12,7 @@
 
 AI agents powered by Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and multi-agent frameworks are increasingly deployed for legal document review, yet reliability evidence remains scattered across system papers, empirical benchmarks, court sanction orders, and ethics opinions.
 
-This repository hosts the anonymized manuscript, secondary quantitative synthesis data, analytical reproduction scripts, and experimental evaluation specifications for the **Verification-First Reference Architecture (VFRA)**.
+This repository contains the anonymized conference manuscript and the accompanying Python implementation/analysis script (`app.py`) for the **Verification-First Reference Architecture (VFRA)**.
 
 ### Key Contributions
 1. **Seven-Item Failure-Mode Taxonomy (`F1`–`F7`):** Synthesizes quantitative findings from **26 open-access sources** (2018–2026) covering retrieval granularity bias, context contamination, cost-accuracy gaps, multi-agent coordination drift, under-specified queries, fabricated authorities, and extraction ceilings.
@@ -37,17 +37,10 @@ This repository hosts the anonymized manuscript, secondary quantitative synthesi
 
 ---
 
-## Repository Structure
+## Repository Contents
 
 ```text
-├── paper/
-│   └── Confluence2027_IEEE_paper_anonymous.pdf   # Anonymous IEEE conference manuscript
-├── data/
-│   └── synthesized_sources_26.csv                # Quantitative data extracted from the 26 reviewed sources
-├── analysis/
-│   ├── noise_degradation_fit.py                  # Reproduces Section IV-A OLS regressions
-│   └── citation_fabrication_risk.py              # Reproduces Section IV-C Table III probabilities
-├── architecture/
-│   └── vfra_evaluation_protocol.md               # Experimental design for Hypotheses H1–H3
-├── LICENSE
-└── README.md
+├── Confluence2027_IEEE_paper_anonymous.pdf   # Anonymous IEEE conference manuscript
+├── app.py                                    # Python implementation / quantitative analysis script
+├── LICENSE                                   # Repository license
+└── README.md                                 # Project documentation
